@@ -1,0 +1,105 @@
+/* Mawhoub Yahya - Décembre 2022 */
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+header
+{
+    background-color: rgb(88, 88, 235);
+    height: 75px;
+    border-radius: 30px;
+    margin: 20px;
+}
+header h1
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(91, 176, 255);
+}
+
+header ul
+{
+    float: right;
+    margin: 0;
+    margin-right:200px;
+    height: inherit;
+}
+header li
+{
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 25px;
+    list-style: none;
+    height: inherit;
+}
+header a
+{
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(91, 176, 255);
+}
+header li:hover
+{
+    background-color: orangered;
+    font-size: 35px;
+}
+
+header i
+{
+    color: #fff;
+    padding-left: 15px;
+}
+
+header:hover
+{
+    height: 100px;
+}
+
+
+
+/* Début du footer */
+footer
+{
+    background-color: rgb(37, 37, 128);
+    height: 75px;
+    border-radius: 30px;
+    color: blanchedalmond;
+    padding-top: 20px;
+    margin-top: 2%;
+
+}
+
+footer h2
+{
+    float: left;
+    margin-left: 20px;
+    color: rgb(91, 176, 255);
+}
+
+#open-source
+{
+    text-align: right;
+    margin-right: 20px;
+    color: rgb(91, 176, 255);
+}
+#open-source a
+{
+    text-decoration: none;
+    color: rgb(91, 176, 255);
+    font-size: 20px;
+}
+
+#open-source a:hover
+{
+    font-size: 25px;
+}

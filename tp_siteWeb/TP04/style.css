@@ -1,0 +1,58 @@
+body
+{
+    background-color:darkolivegreen;
+    text-align: center;
+    width: fit-content;
+    font-family: 'Varela Round', sans-serif;
+}
+
+input[type=checkbox]
+{
+    margin-top: 15px;
+    accent-color: skyblue;
+    cursor:pointer;
+    transform: scale(1.7);
+}
+
+a
+{
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;  
+}
+
+#zone
+{
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: chocolate;
+    margin-left: 600px;
+    padding: 50px 100px 50px 100px;
+    margin-top: 70px;
+
+    font-size: 20px;
+    color: black;
+}
+
+button
+{
+    margin-top: 30px;
+    padding: 15px 80px 15px 80px;
+    border-radius: 50px;
+    
+    cursor: pointer;
+    font-size: 20px;
+}
+button:active
+{
+    background-color:darkolivegreen;
+}
+
+p
+{
+    margin-top: -20px;
+}

@@ -1,0 +1,80 @@
+<!-- Yahya Mawhoub - Octobre 2022 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eba5d366fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>contact</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="./home.html"><img src="./img/logo.jpg" alt="logo"></a>
+        </h1>
+        <ul>
+            <li><a href="../html/portefolio.html">revenir au TP Final</a></li>
+            <li><a href="home.html">home</a></li>
+            <li><a href="./about.html">about</a></li>
+            <li><a class="pagecourante" href="contact.html">contact</a></li>
+        </ul>
+    </header>
+
+    <section id="formulaire">
+        <h1>Veuillez remplir le formulaire suivant pour nous contacter</h1>
+        <form action="contact.html" method="get">
+              <div>
+                <p>Name</p> 
+                <input type="text" name="lastname" class="typingplace" />
+            </div>
+            <div>
+                <p>Email</p>
+                <input type="email" name="Email" class="typingplace"/>
+            </div>
+            <br>
+            <div>
+                <label for="message"><p>Message</p></label>
+                <textarea name="message" id="message1" class="typingplace" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <input id="submit" type="submit" value="submit">
+        </form>
+    </section>
+
+    <section id="contact">
+        <div>
+            <i class="fa-solid fa-hotel fa-3x"></i>
+            <h1>Location</h1>
+            <p>7000 Rue Marie-Victorin <br> Montréal, QC H1G 2J6</p>
+        </div>
+
+        <div id="div2">
+            <i class="fa-solid fa-phone fa-3x"></i>
+            <h1>Phone Number</h1>
+            <p>514-325-0150</p>
+        </div>
+
+        <div>
+            <i class="fa-regular fa-envelope fa-3x"></i>
+            <h1>Email Adress</h1>
+            <p>organisationscolaire@collegemv.qc.ca</p>
+        </div>
+    </section>
+
+    <section id="socials">
+        <h1>Suivez-nous</h1>
+        <div id="socialMedia">
+        <a href="https://www.facebook.com/cegepmarievictorin"><i style="color: #3b5998;" class="fa-brands fa-facebook fa-2x"></i></a>
+        <a href="https://www.instagram.com/cegepmarievictorin/"><i style="color: #8a3ab9;" class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="https://twitter.com/cegepmarievic"><i style="color: #00acee;" class="fa-brands fa-twitter fa-2x"></i></a>
+        <a href="https://www.youtube.com/user/cegepmarievictorin"><i style="color: #FF0000;" class="fa-brands fa-youtube fa-2x"></i></a>
+        <a href="https://www.linkedin.com/company/c-gep-marie-victorin"><i style="color: #0072b1;" class="fa-brands fa-linkedin fa-2x"></i></a> <br>
+        </div>
+    </section>
+    <footer>
+        <p>Hôtel MarieVic &copy Made with <i style="color: red;" class="fa-solid fa-heart fa-2x"></i></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Password generator</title>
+</head>
+<body>
+    <div id="zone">
+        <a href="../html/portefolio.html">Revenir au Tp Final</a>
+
+        <h1>Générateur de mots de passe</h1>
+    
+        <div>
+            <label>Veuillez indiquer la longeur du mot de passe: </label><br>
+            <input type="number" id="longueur" min="5" max="20" value="5">
+        </div>
+
+        <br>
+        <div>
+            <label>Inclus lettres majuscules:  </label><br>
+            <input type="checkbox" id="upperCase">
+        </div>
+
+        <br>
+        <div>
+            <label>Inclus lettres minuscules:  </label><br>
+            <input type="checkbox" id="lowerCase">
+        </div>
+
+        <br>
+        <div>
+            <label>Inclus les nombres:  </label><br>
+            <input type="checkbox" id="numbers" >
+        </div>
+
+        <br>
+        <div>
+            <label>Inclus les symboles:  </label><br>
+            <input type="checkbox" id="symbols">
+        </div>
+
+        <button type="submit" id="generate">Générer le mot de passe</button>
+
+        <br><br><br><br>
+        <p id="mot_de_passe">Le mot de passe s'affichera ici</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

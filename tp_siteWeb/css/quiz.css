@@ -1,0 +1,74 @@
+/* Mawhoub Yahya - Décembre 2022 */
+body
+{
+    background-color: blanchedalmond;
+}
+#question
+{
+    padding-top:75px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.listeChoix
+{
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align-last: center;
+    font-size: 25px;
+}
+
+.listeChoix li
+{
+    list-style: none;
+    margin: 101px;
+}
+
+.listeChoix li:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#submit
+{
+    margin-top: 175px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: black;
+    color: rgb(91, 176, 255);
+}
+
+#retry, #lastOne
+{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: black;
+    color: rgb(91, 176, 255);
+}
+
+#lastOne
+{
+    margin-left: 32%;
+}
+
+#submit:hover, #retry:hover, #lastOne:hover
+{
+    cursor: pointer;
+    background-color: rgb(91, 176, 255);
+    color: black;
+}
+
+#result
+{
+    text-align: center;
+    
+}
+
+
+
+

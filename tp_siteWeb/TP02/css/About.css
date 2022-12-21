@@ -1,0 +1,138 @@
+/* Yahya mawhoub - Septembre 2022 */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ........................ header ............................. */
+
+header
+{
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: rgb(27, 27, 27);
+    position:fixed;
+}
+header h1
+{
+    margin-left: 200px;
+    float: left;
+    height: 50px;
+}
+header h1 img
+{
+    margin-top: -5px;
+    height: 60px;
+}
+header ul
+{
+    float: right;
+    list-style: none;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+header li
+{
+    float:left;
+    margin-right: 10px;
+}
+header ul li a 
+{
+    text-decoration: none;
+    color: white;
+    padding-top: 100%;
+    padding-bottom: 30px;
+    padding-left: 15px; padding-right: 15px;
+}
+header ul a:hover,.pagecourante
+{
+    color: orange;
+    background-color: rgb(80, 79, 79);
+}
+
+/* ........................ section1 ........................ */
+
+
+#aboutsection
+{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 120px;
+}
+#aboutsection #div1
+{
+    float: left;
+    width: 800px;
+    margin-left: 250px;
+    margin-right: 3%;
+}
+
+#aboutsection #div1 h1
+{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#aboutsection #div1 p
+{
+    font-size: 20px;
+}
+#aboutsection img
+{
+    border-radius: 50%;
+    height: 325px;
+    width: 425px;
+}
+
+/* .............................. Section 2 .......................... */
+#comments
+{
+    background-image: url(../img/mur.jpg);
+    padding-top: 50px;
+    height: 500px;
+}
+
+#comments h1
+{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 15px;
+}
+.avis
+{
+    background-color: orange;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    float: right;
+    opacity: 0.9;
+}
+.avis img
+{
+    border-radius: 50%;
+    height: 90px;
+    margin-left: 15px; margin-top: 10px; margin-bottom: 5px; margin-right: 20px;
+    float: left;
+}
+.avis p
+{
+    padding-top: 25px;
+}
+
+footer
+{
+    background-color: rgb(27, 27, 27);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}

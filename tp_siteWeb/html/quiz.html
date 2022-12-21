@@ -1,0 +1,79 @@
+<!-- Mawhoub Yahya - Décembre 2022 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <script src="https://kit.fontawesome.com/eba5d366fa.js" crossorigin="anonymous"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap'); </style>
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Yahya-Mawhoub</h1>
+        <ul>
+            <li>
+                <a href="home.html">home</a><br>
+                <i class="fa-solid fa-house"></i>
+            </li>
+            <li>
+                <a href="faq.html">FAQ</a><br>
+                <i class="fa-solid fa-check"></i>
+            </li>
+            <li>
+                <a href="./quiz.html">Quiz</a><br>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+            <li>
+                <a href="portefolio.html">portefolio</a><br>
+                <i class="fa-solid fa-folder-open"></i>
+            </li>
+            <li>
+                <a href="contact.html">contact</a><br>
+                <i class="fa-solid fa-comment"></i>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container" id="quiz">
+        <div class="quiz-entete">
+            <h2 id="question">Question</h2>
+
+            <ul class="listeChoix">
+                <li>
+                    <input type="radio" name="reponse" id="a" class="reponse">
+                    <label for="" id="a_choixDeReponse">ChoixDeReponse</label>
+                </li>
+                <li>
+                    <input type="radio" name="reponse" id="b" class="reponse">
+                    <label for="" id="b_choixDeReponse">ChoixDeReponse</label>
+                </li>
+                <li>
+                    <input type="radio" name="reponse" id="c" class="reponse">
+                    <label for="" id="c_choixDeReponse">ChoixDeReponse</label>
+                </li>
+                <li>
+                    <input type="radio" name="reponse" id="d" class="reponse">
+                    <label for="" id="d_choixDeReponse">ChoixDeReponse</label>
+                </li>
+            </ul>
+        </div>
+        <h2 id="result"></h2>
+        <button id="lastOne">question précédente</button>
+        <button id="submit">Soumettre</button>
+        <button id="retry">Recommencer</button>
+    </div>
+    <footer>
+        <h2>Yahya Mawhoub - Décembre 2022</h2>
+        <div id="open-source">
+            <a href="https://github.com/yahyamaw311/TP_final">Cliquez pour trouver le code open source du site!</a>
+            <i class="fa-brands fa-github fa-2x"></i>
+        </div>
+    </footer>
+    <script src="../javascript/quiz.js"></script>
+</body>
+</html>
